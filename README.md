@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/b91c6a5/docs/img/satchel-logo.png" width="84" alt="Satchel logo">
+  <img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/7361c6f/docs/img/satchel-logo.png" width="84" alt="Satchel logo">
 </p>
 
 <h1 align="center">Satchel</h1>
@@ -7,9 +7,9 @@
 <p align="center"><b>Your Caravan library in your pocket: every book, your place in it, and pages you can actually turn.</b></p>
 
 <table align="center"><tr>
-<td><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/b91c6a5/docs/img/satchel-home.jpg" width="230" alt="Satchel's home screen with Dune at 42% and the update ribbon"></td>
-<td><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/b91c6a5/docs/img/satchel-shelf.jpg" width="230" alt="The library as a wooden bookcase of spines"></td>
-<td><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/b91c6a5/docs/img/satchel-reader.jpg" width="230" alt="Dune open as a single page on a walnut desk"></td>
+<td><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/7361c6f/docs/img/satchel-home.jpg" width="230" alt="Satchel's home screen with Dune at 42% and the update ribbon"></td>
+<td><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/7361c6f/docs/img/satchel-shelf.jpg" width="230" alt="The library as a wooden bookcase of spines"></td>
+<td><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/7361c6f/docs/img/satchel-reader.jpg" width="230" alt="Dune open as a single page on a walnut desk"></td>
 </tr></table>
 
 Satchel is the Android app for **[Caravan](https://github.com/GetHorizontal63/caravan)**, the self-hosted e-book and comic server. It connects to your own Caravan server the way the Jellyfin app connects to Jellyfin: enter the address, sign in, and your whole library is there. Your reading position, bookmarks, highlights, favourites and collections are kept on the server, so you can carry on in the browser or on another phone.
@@ -20,10 +20,10 @@ Satchel is the Android app for **[Caravan](https://github.com/GetHorizontal63/ca
 
 | | |
 |---|---|
-| Latest version | **0.1.0 (2026-11-08 18:14)** |
-| Build | 1569661 |
+| Latest version | **0.1.0 (2026-11-08 18:19)** |
+| Build | 1569666 |
 | Requires | Android 7.0 (API 24) or newer, and a Caravan server |
-| Built from | Caravan [`b91c6a5`](https://github.com/GetHorizontal63/caravan/commit/b91c6a5) |
+| Built from | Caravan [`7361c6f`](https://github.com/GetHorizontal63/caravan/commit/7361c6f) |
 
 ---
 
@@ -59,7 +59,7 @@ On your phone, open **[Satchel.apk](https://github.com/GetHorizontal63/satchel/r
 ### Step 3: Connect to your server
 
 <table><tr>
-<td width="260"><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/b91c6a5/docs/img/satchel-connect.jpg" width="240" alt="Connect to a server, with http://192.168.1.50:8420 typed in"></td>
+<td width="260"><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/7361c6f/docs/img/satchel-connect.jpg" width="240" alt="Connect to a server, with http://192.168.1.50:8420 typed in"></td>
 <td>
 
 1. Type your server's address, for example **`http://192.168.1.50:8420`**. That's the IP of the machine running Caravan, with port **8420**.
@@ -75,7 +75,7 @@ If it can't connect, the message under the box says why. See [Troubleshooting](#
 ### Step 4: Sign in
 
 <table><tr>
-<td width="260"><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/b91c6a5/docs/img/satchel-login.jpg" width="240" alt="Sign in to Caravan with username reader"></td>
+<td width="260"><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/7361c6f/docs/img/satchel-login.jpg" width="240" alt="Sign in to Caravan with username reader"></td>
 <td>
 
 1. Enter your Caravan **username** and **password**. These are the same as on the web.
@@ -92,7 +92,7 @@ You stay signed in until you sign out. **Change server** under the button takes 
 ## The app at a glance
 
 <table><tr>
-<td width="260"><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/b91c6a5/docs/img/satchel-home.jpg" width="240" alt="The home screen"></td>
+<td width="260"><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/7361c6f/docs/img/satchel-home.jpg" width="240" alt="The home screen"></td>
 <td>
 
 | Where | What it does |
@@ -114,7 +114,7 @@ The Android **back** button or back gesture works as you'd expect. It closes wha
 ## Reading
 
 <table><tr>
-<td width="260"><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/b91c6a5/docs/img/satchel-reader.jpg" width="240" alt="A page of Dune on the desk, with the chapter and page counter below"></td>
+<td width="260"><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/7361c6f/docs/img/satchel-reader.jpg" width="240" alt="A page of Dune on the desk, with the chapter and page counter below"></td>
 <td>
 
 | Do this | To… |
@@ -140,7 +140,7 @@ If a book has **several versions** (for example EPUB and PDF), pick one on the b
 
 | Bookshelf | A book | A series |
 |:-:|:-:|:-:|
-| <img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/b91c6a5/docs/img/satchel-shelf.jpg" width="230" alt="The bookcase"> | <img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/b91c6a5/docs/img/satchel-book.jpg" width="230" alt="A Court of Mist and Fury's page at 64%"> | <img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/b91c6a5/docs/img/satchel-series.jpg" width="230" alt="The A Court of Thorns and Roses series page"> |
+| <img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/7361c6f/docs/img/satchel-shelf.jpg" width="230" alt="The bookcase"> | <img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/7361c6f/docs/img/satchel-book.jpg" width="230" alt="A Court of Mist and Fury's page at 64%"> | <img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/7361c6f/docs/img/satchel-series.jpg" width="230" alt="The A Court of Thorns and Roses series page"> |
 | **Library → covers / bookshelf** switches between a cover grid and a bookcase of spines. Series stand together, with bookends. | **Continue reading**, progress, download, add to a collection, favourite, mark finished. | Your progress through the series and **Continue the series**, then the reading order. |
 
 - **Select several books:** long-press one, tap the others, then **Add to collection** or **Add to series**.
@@ -150,7 +150,7 @@ If a book has **several versions** (for example EPUB and PDF), pick one on the b
 ### Appearance
 
 <table><tr>
-<td width="260"><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/b91c6a5/docs/img/satchel-settings.jpg" width="240" alt="Settings: Oasis & Saddle selected, Dark mode"></td>
+<td width="260"><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/7361c6f/docs/img/satchel-settings.jpg" width="240" alt="Settings: Oasis & Saddle selected, Dark mode"></td>
 <td>
 
 **Settings → Appearance:** Satchel starts in **Oasis & Saddle**; **Terracotta & Amber** is the other palette. Choose **Dark**, **Light** or **System**.
