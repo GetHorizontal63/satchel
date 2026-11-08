@@ -1,11 +1,11 @@
 {
-  "versionName": "0.1.0 (2026-11-08 14:52)",
-  "versionCode": 1569459,
-  "tag": "v0.1.0-build.1569459",
-  "builtAt": "2026-11-08T14:52:22-05:00",
-  "sizeBytes": 5738650,
-  "sha256": "789d6191715db443909bc9241f2e0cdf0762f088fa4fbff35f052d3acf3caab6",
+  "versionName": "0.1.0 (2026-11-08 16:03)",
+  "versionCode": 1569530,
+  "tag": "v0.1.0-build.1569530",
+  "builtAt": "2026-11-08T16:03:59-05:00",
+  "sizeBytes": 5745514,
+  "sha256": "da0f5642d814f3e583811278e93e2f558e42867f4a7240df56cd328693892f7a",
   "minAndroid": "7.0 (API 24)",
-  "source": "7b23cab",
+  "source": "3c2a776",
   "apk": "Satchel.apk"
 }

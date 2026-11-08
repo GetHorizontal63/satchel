@@ -8,10 +8,10 @@ The Android app for **[Caravan](https://github.com/GetHorizontal63/caravan)**, t
 
 | | |
 |---|---|
-| Latest version | 0.1.0 (2026-11-08 14:52) |
-| Build | 1569459 |
+| Latest version | 0.1.0 (2026-11-08 16:03) |
+| Build | 1569530 |
 | Requires | Android 7.0 (API 24) or newer |
-| Built from | Caravan [`7b23cab`](https://github.com/GetHorizontal63/caravan/commit/7b23cab) |
+| Built from | Caravan [`3c2a776`](https://github.com/GetHorizontal63/caravan/commit/3c2a776) |
 
 ## Install
 
