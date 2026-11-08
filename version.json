@@ -1,0 +1,11 @@
+{
+  "versionName": "0.1.0 (2026-11-08 03:23)",
+  "versionCode": 1568769,
+  "tag": "v0.1.0-build.1568769",
+  "builtAt": "2026-11-08T03:23:08-05:00",
+  "sizeBytes": 5734750,
+  "sha256": "f4bd23e28fb8acbcea1c15b1b62d718f85c4532ef226179957f9362a5afb036b",
+  "minAndroid": "7.0 (API 24)",
+  "source": "38c18fe",
+  "apk": "Satchel.apk"
+}
