@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/25ce740/docs/img/satchel-logo.png" width="84" alt="Satchel logo">
+  <img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/32a9318/docs/img/satchel-logo.png" width="84" alt="Satchel logo">
 </p>
 
 <h1 align="center">Satchel</h1>
@@ -7,9 +7,9 @@
 <p align="center"><b>Your Caravan library in your pocket: every book, your place in it, and pages you can actually turn.</b></p>
 
 <table align="center"><tr>
-<td><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/25ce740/docs/img/satchel-home.jpg" width="230" alt="Satchel's home screen with Dune at 42% and the update ribbon"></td>
-<td><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/25ce740/docs/img/satchel-shelf.jpg" width="230" alt="The library as a wooden bookcase of spines"></td>
-<td><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/25ce740/docs/img/satchel-reader.jpg" width="230" alt="Dune open as a single page on a walnut desk"></td>
+<td><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/32a9318/docs/img/satchel-home.jpg" width="230" alt="Satchel's home screen with Dune at 42% and the update ribbon"></td>
+<td><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/32a9318/docs/img/satchel-shelf.jpg" width="230" alt="The library as a wooden bookcase of spines"></td>
+<td><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/32a9318/docs/img/satchel-reader.jpg" width="230" alt="Dune open as a single page on a walnut desk"></td>
 </tr></table>
 
 Satchel is the Android app for **[Caravan](https://github.com/GetHorizontal63/caravan)**, the self-hosted e-book and comic server. It connects to your own Caravan server the way the Jellyfin app connects to Jellyfin: enter the address, sign in, and your whole library is there. Your reading position, bookmarks, highlights, favourites and collections are kept on the server, so you can carry on in the browser or on another phone.
@@ -20,10 +20,10 @@ Satchel is the Android app for **[Caravan](https://github.com/GetHorizontal63/ca
 
 | | |
 |---|---|
-| Latest version | **1.0.1 (2026-11-08 22:06)** |
-| Build | 1569893 |
+| Latest version | **1.0.1 (2026-11-08 22:34)** |
+| Build | 1569921 |
 | Requires | Android 7.0 (API 24) or newer, and a Caravan server |
-| Built from | Caravan [`25ce740`](https://github.com/GetHorizontal63/caravan/commit/25ce740) |
+| Built from | Caravan [`32a9318`](https://github.com/GetHorizontal63/caravan/commit/32a9318) |
 
 ---
 
@@ -33,8 +33,9 @@ Satchel is the Android app for **[Caravan](https://github.com/GetHorizontal63/ca
 |---|---|
 | [Install](#install) | Download, install and connect, in four steps |
 | [The app at a glance](#glance) | Tabs, shelves and the update ribbon |
-| [Reading](#reading) | Turning pages, highlights, display settings |
-| [Your library](#library) | Bookshelf, books, series and collections |
+| [Reading](#reading) | Turning pages, highlights, looking up words, display settings |
+| [Reading offline](#offline) | Saving books on the phone; how your notes sync back |
+| [Your library](#library) | Libraries, bookshelf, books, series, collections and My Shelf |
 | [Troubleshooting](#troubleshooting) | Fixes for common problems, step by step |
 | [Reference](#reference) | Permissions, what's stored where, versions |
 
@@ -59,7 +60,7 @@ On your phone, open **[Satchel.apk](https://github.com/GetHorizontal63/satchel/r
 ### Step 3: Connect to your server
 
 <table><tr>
-<td width="260"><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/25ce740/docs/img/satchel-connect.jpg" width="240" alt="Connect to a server, with http://192.168.1.50:8420 typed in"></td>
+<td width="260"><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/32a9318/docs/img/satchel-connect.jpg" width="240" alt="Connect to a server, with http://192.168.1.50:8420 typed in"></td>
 <td>
 
 1. Type your server's address, for example **`http://192.168.1.50:8420`**. That's the IP of the machine running Caravan, with port **8420**.
@@ -75,7 +76,7 @@ If it can't connect, the message under the box says why. See [Troubleshooting](#
 ### Step 4: Sign in
 
 <table><tr>
-<td width="260"><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/25ce740/docs/img/satchel-login.jpg" width="240" alt="Sign in to Caravan with username reader"></td>
+<td width="260"><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/32a9318/docs/img/satchel-login.jpg" width="240" alt="Sign in to Caravan with username reader"></td>
 <td>
 
 1. Enter your Caravan **username** and **password**. These are the same as on the web.
@@ -92,7 +93,7 @@ You stay signed in until you sign out. **Change server** under the button takes 
 ## The app at a glance
 
 <table><tr>
-<td width="260"><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/25ce740/docs/img/satchel-home.jpg" width="240" alt="The home screen"></td>
+<td width="260"><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/32a9318/docs/img/satchel-home.jpg" width="240" alt="The home screen"></td>
 <td>
 
 | Where | What it does |
@@ -100,7 +101,7 @@ You stay signed in until you sign out. **Change server** under the button takes 
 | **Update ribbon** (top) | Appears when a newer Satchel is released. **Update** downloads it; **✕** hides it until the next release. |
 | **Featured book** | The book you're reading. **Continue** opens it where you left off, even if you were last reading in the browser. |
 | **Shelves** | Continue reading, Recently added and Favorites. Swipe sideways; **See all** lists everything. |
-| **Bottom bar** | **Home**, **Library**, **Search** and **Settings**. |
+| **Bottom bar** | **Home**, **Library**, **My Shelf**, **Search** and **Settings**. |
 | **Top bar** | Administration (admins), Settings and Sign out. |
 
 </td></tr></table>
@@ -114,7 +115,7 @@ The Android **back** button or back gesture works as you'd expect. It closes wha
 ## Reading
 
 <table><tr>
-<td width="260"><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/25ce740/docs/img/satchel-reader.jpg" width="240" alt="A page of Dune on the desk, with the chapter and page counter below"></td>
+<td width="260"><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/32a9318/docs/img/satchel-reader.jpg" width="240" alt="A page of Dune on the desk, with the chapter and page counter below"></td>
 <td>
 
 | Do this | To… |
@@ -122,7 +123,8 @@ The Android **back** button or back gesture works as you'd expect. It closes wha
 | Tap the **right** or **left** side | turn forward or back |
 | **Drag a corner or the edge** | turn the page by hand. It curls from wherever you grab it, and you can let it fall back. |
 | Tap the **middle** | show the menus: Contents, Bookmark, Search, Display (**Aa**), and the progress bar |
-| **Long-press** a word, then drag | select text, then pick one of five highlight colours, add a note, or copy |
+| **Long-press** a word, then drag | select text, then pick one of five highlight colours, add a note, copy, or **Define** |
+| **Define** (book-with-an-A button) | look the word up in the Merriam-Webster dictionary: syllables, part of speech, pronunciation (tap the speaker to hear it) and definitions |
 | **Contents → Bookmarks & highlights** | see your notes and jump to any of them |
 | **Back** | close the menus or panels first, then leave the book |
 
@@ -132,6 +134,23 @@ The Android **back** button or back gesture works as you'd expect. It closes wha
 
 If a book has **several versions** (for example EPUB and PDF), pick one on the book's page. Your place and highlights carry across.
 
+**Define** needs a dictionary key set up once on the server by an administrator (see the [Caravan README](https://github.com/GetHorizontal63/caravan#dictionary-key)).
+
+---
+
+<a id="offline"></a>
+
+## Reading offline
+
+1. On a book's page, tap the **cloud** button. Satchel saves the version you picked on the phone, with its cover, your place and your notes. The cloud gets a tick when it's done.
+2. With no connection, Satchel opens **On this device** with your saved books. Tap one to read it.
+3. Everything you do while offline (your place, bookmarks, highlights, notes) is kept on the phone. The banner shows how many changes are waiting.
+4. When your server is reachable again, Satchel switches back by itself and sends the changes. You can also press **Try again** on the offline screen.
+
+**How it merges:** new bookmarks and highlights are added to the ones on the server, so nothing made elsewhere is lost. Deleting or editing a note applies on the server too. Your place from the phone only wins if you read on the phone more recently than anywhere else.
+
+**Settings → On this device** lists saved books and their sizes, removes them, and has **Sync now**. Removing a saved copy never removes your notes or place from the server.
+
 ---
 
 <a id="library"></a>
@@ -140,9 +159,11 @@ If a book has **several versions** (for example EPUB and PDF), pick one on the b
 
 | Bookshelf | A book | A series |
 |:-:|:-:|:-:|
-| <img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/25ce740/docs/img/satchel-shelf.jpg" width="230" alt="The bookcase"> | <img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/25ce740/docs/img/satchel-book.jpg" width="230" alt="A Court of Mist and Fury's page at 64%"> | <img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/25ce740/docs/img/satchel-series.jpg" width="230" alt="The A Court of Thorns and Roses series page"> |
+| <img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/32a9318/docs/img/satchel-shelf.jpg" width="230" alt="The bookcase"> | <img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/32a9318/docs/img/satchel-book.jpg" width="230" alt="A Court of Mist and Fury's page at 64%"> | <img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/32a9318/docs/img/satchel-series.jpg" width="230" alt="The A Court of Thorns and Roses series page"> |
 | **Library → covers / bookshelf** switches between a cover grid and a bookcase of spines. Series stand together, with bookends. | **Continue reading**, progress, download, add to a collection, favourite, mark finished. | Your progress through the series and **Continue the series**, then the reading order. |
 
+- **Several libraries?** The **Library:** menu under the library's name switches between them. The **Library** button returns to the one you used last.
+- **My Shelf** holds your own private books: tap **Add books** to upload from the phone. Only you can see them, administrators included. To let someone read one, open it and tap **Share**, then tick their name. Books others share with you are under **My Shelf → Shared with me**.
 - **Select several books:** long-press one, tap the others, then **Add to collection** or **Add to series**.
 - **Search** finds titles, authors, series, tags and ISBNs.
 - Adding books, covers and spines happens on the server: drop files into its folders and they appear within seconds. See the [Caravan README](https://github.com/GetHorizontal63/caravan#step-3).
@@ -150,7 +171,7 @@ If a book has **several versions** (for example EPUB and PDF), pick one on the b
 ### Appearance
 
 <table><tr>
-<td width="260"><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/25ce740/docs/img/satchel-settings.jpg" width="240" alt="Settings: Oasis & Saddle selected, Dark mode"></td>
+<td width="260"><img src="https://raw.githubusercontent.com/GetHorizontal63/caravan/32a9318/docs/img/satchel-settings.jpg" width="240" alt="Settings: Oasis & Saddle selected, Dark mode"></td>
 <td>
 
 **Settings → Appearance:** Satchel starts in **Oasis & Saddle**; **Terracotta & Amber** is the other palette. Choose **Dark**, **Light** or **System**.
@@ -186,7 +207,15 @@ Satchel was connected before but the server isn't answering now. Check the serve
 1. Allow your browser or file manager to install unknown apps (Step 2).
 2. If Android says the update conflicts with the installed app, uninstall Satchel and install the new one. You only need to enter the server address and sign in again; everything else is on the server.
 
-### 5. The back button closes the app
+### 5. Notes I made offline aren't on the server yet
+
+Open Satchel while connected; it sends them by itself. Or go to **Settings → On this device** and tap **Sync now**: the line above it shows how many changes are still waiting. If that number doesn't go down, Satchel can't reach the server yet; see problem 1.
+
+### 6. Long-pressing a word shows Android's Copy / Share bar instead of Satchel's
+
+You're on an old version. Install the [latest release](https://github.com/GetHorizontal63/satchel/releases/latest): selecting text then shows Satchel's own popover (highlight, note, copy, Define).
+
+### 7. The back button closes the app
 
 You're on an old version. Install the [latest release](https://github.com/GetHorizontal63/satchel/releases/latest), which handles back and the back gesture.
 
@@ -200,7 +229,7 @@ You're on an old version. Install the [latest release](https://github.com/GetHor
 |---|---|
 | Android | 7.0 (API 24) or newer |
 | Permissions | Internet only |
-| Stored on the phone | your server's address, your sign-in, and your appearance choice |
+| Stored on the phone | your server's address, your sign-in, your appearance choice, books you save for offline reading, and changes made offline until they sync |
 | Stored on the server | everything else: books, progress, bookmarks, highlights, notes, favourites, collections, and your reading-display choices |
 | Connections | your Caravan server, plus GitHub once in a while to check for new releases |
 | Plain `http://` | allowed, so you can use a home-network address |
